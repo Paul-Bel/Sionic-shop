@@ -1,0 +1,146 @@
+.footerContainer{
+    position: relative;
+    width: 1366px;
+    height: 215px;
+    /*left: 0px;*/
+    /*bottom: 0px;*/
+
+
+    /* Secondary/Very Light Grey */
+
+    background: #F8F8F8;
+}
+.title {
+    position: absolute;
+    left: 3.66%;
+    right: 87.34%;
+    top: 14.88%;
+    bottom: 61.86%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40.8px;
+    line-height: 50px;
+}
+.frameIconContact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    left: 58.57%;
+    right: 27.96%;
+    top: 19.53%;
+    bottom: 52.56%;
+
+}
+.linkContainer {
+    display: flex;
+    width: 116px;
+    justify-content: space-between;
+}
+.titleInfoLinks {
+    position: static;
+    width: 184px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.link {
+    position: static;
+    width: 28px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+}
+.appLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    left: 74.3%;
+    right: 9%;
+    top: 19.53%;
+    bottom: 50.7%;
+}
+.titleInfoApp {
+    position: static;
+    width: 226px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.linksAPP{
+    display: flex;
+    justify-content: space-between;
+    width: 228px;
+}
+.linksApp {
+    position: static;
+    width: 104px;
+    height: 32px;
+    left: 124px;
+    top: 0px;
+}
+.SionikInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    left: 33.16%;
+    right: 33.16%;
+    top: 75.81%;
+    bottom: 16.28%;
+}
+.Information{
+    /*position: static;*/
+    /*width: 213px;*/
+    /*height: 17px;*/
+    /*left: 247px;*/
+    /*top: 0px;*/
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 122%;
+/* identical to box height, or 17px */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+/* Secondary/ Grey */
+
+    color: #8D8D8E;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 20px;
+}

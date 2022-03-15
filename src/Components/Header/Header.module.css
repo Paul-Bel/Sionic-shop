@@ -1,0 +1,286 @@
+.HeaderContainer {
+    position: absolute;
+    width: 1015px;
+    height: 82px;
+
+}
+
+.frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 164px;
+    height: 20px;
+    left: 178px;
+    top: calc(50% - 20px/2 + 4px);
+}
+
+.location {
+    left: 15.24%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.icon {
+    position: static;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.iconLocGroup {
+    position: absolute;
+    left: -5%;
+    top: 45%;
+
+}
+
+.vectorOne {
+    position: absolute;
+    width: 4.5px;
+    height: 4.5px;
+    left: calc(50% - 4.5px / 2 - 0.5px);
+    top: calc(50% - 4.5px / 2 - 2.25px);
+}
+
+.vectorTwo {
+    position: absolute;
+    width: 13.5px;
+    height: 18px;
+    left: calc(50% - 13.5px / 2 - 0.5px);
+    top: calc(50% - 18px / 2);
+}
+
+.title {
+    position: absolute;
+    width: 103px;
+    height: 43px;
+    left: 50px;
+    top: calc(50% - 43px / 2 + 0.5px);
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+}
+
+.auth {
+    position: absolute;
+    width: 604px;
+    height: 50px;
+    left: 362px;
+    top: 20px;
+}
+
+.avatar {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 554px;
+    top: 0px;
+
+    border-radius: 58px;
+}
+
+.shoppingCart {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 517px;
+    top: -8px;
+}
+
+.itemsOfCart {
+    position: absolute;
+    width: 23px;
+    height: 20px;
+    /* right: 62px; */
+    top: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #2967FF;
+    z-index: 1;
+    background: white;
+}
+
+.ellipse {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    right: 60px;
+    top: -8px;
+
+    background: #FFFFFF;
+}
+
+.basket {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 484px;
+    top: 0px;
+}
+.iconBasket {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 98px;
+    /*top: 15px;*/
+
+}
+.BasketEllipse{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 70px;
+    top: 0px;
+
+    background: #FFFFFF;
+    /* Primary/Body */
+
+    /*border: 1px solid #727280;*/
+    box-sizing: border-box;
+}
+
+.basketGroup{
+    position: absolute;
+    width: 17.74px;
+    height: 16.94px;
+    /* left: 1px; */
+    top: 15px;
+    right: 87px;
+    z-index: 1;
+}
+.basketIMG1{
+    position: absolute;
+    width: 17.74px;
+    height: 12.1px;
+    left: calc(50% - 17.74px/2 - 0.13px);
+    top: calc(50% - 12.1px/2 - 1.95px);
+
+}
+.basketIMG2{
+    position: absolute;
+    width: 1.61px;
+    height: 1.61px;
+    left: calc(50% - 1.61px/2 + 6.32px);
+    top: calc(50% - 1.61px/2 + 8.13px);
+
+}
+.basketIMG3{
+    position: absolute;
+    width: 1.61px;
+    height: 1.61px;
+    left: calc(50% - 1.61px/2 - 2.55px);
+    top: calc(50% - 1.61px/2 + 8.13px);
+
+}
+
+.inputFindGroup {
+    position: absolute;
+    height: 50px;
+    left: 0%;
+    right: 22.52%;
+    top: 0px;
+    background: #FFFFFF;
+    /* Secondary/ Blue */
+
+    border: 1px solid #F0F4FB;
+    box-sizing: border-box;
+    border-radius: 36px;
+}
+.inputFind{
+   z-index: 1;
+    position: absolute;
+    height: 50px;
+    left: 0%;
+    right: 22.52%;
+    top: 0px;
+    background: #FFFFFF;
+    /* Secondary/ Blue */
+    padding-left: 15px;
+    border: 1px solid #F0F4FB;
+    box-sizing: border-box;
+    border-radius: 36px;
+}
+.placeholder {
+    position: absolute;
+    width: 374.87px;
+    height: 19px;
+    left: 20px;
+    top: calc(50% - 19px/2 + 0.5px);
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* Primary/Body */
+
+    color: #727280;
+}
+.buttonFrame {
+    position: absolute;
+    width: 94px;
+    height: 42px;
+    right: 4px;
+    top: calc(50% - 42px/2);
+    background: #F0F4FB;
+    border-radius: 41px;
+    /*border: none;    */
+    z-index: 1;
+    cursor: pointer;
+}
+
+.frameButtonForIco{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 37px;
+    top: 11px;
+    cursor: pointer;
+}
+
+.icoButtonGroup{
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 5%;
+    bottom: 5%;
+}
+.buttonV1{
+    position: absolute;
+    width: 4.35px;
+    height: 4.35px;
+    left: calc(50% - 4.35px/2 + 6.83px);
+    top: calc(50% - 4.35px/2 + 6.83px);
+
+}
+.buttonV2{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: calc(50% - 16px/2 - 1px);
+    top: calc(50% - 16px/2 - 1px);
+
+}

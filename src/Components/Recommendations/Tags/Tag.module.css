@@ -1,0 +1,46 @@
+.tagContainer {
+    position: absolute;
+    width: 772px;
+    height: 24px;
+    left: 50px;
+    top: 155px;
+    /*overflow-x: scroll;*/
+}
+.buttonGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 676.22px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+
+    position: static;
+    /*width: 177px;*/
+    height: 24px;
+    left: 499.22px;
+    top: 0px;
+
+    /* Accent/ Pink */
+
+    border: 1px solid #FF2D87;
+    box-sizing: border-box;
+    border-radius: 40.9053px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 0px 5.84362px;
+}

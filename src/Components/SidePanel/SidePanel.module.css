@@ -1,0 +1,33 @@
+.sideContainer{
+    position: absolute;
+    width: 351px;
+    left: 1015px;
+    top: 0%;
+    bottom: -46.59%;
+}
+.slidePanel{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    /* position: absolute; */
+    width: 311px;
+    height: 744px;
+    left: 16px;
+    top: 197px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.banner{
+    position: static;
+    height: 168px;
+    left: 0%;
+    right: 0%;
+    top: 376px;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 20px;
+    width: 311px;
+
+}
