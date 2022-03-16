@@ -1,0 +1,176 @@
+.basketContainer{
+    position: relative;
+    width: 916px;
+    min-height: 680px;
+    left: 0px;
+    top: 0px;
+
+    margin-bottom: 110px;
+    padding-top: 60px;
+    /*border: 1px solid #AEC2EA;*/
+
+}
+
+.frame{
+    border-radius: 20px;
+    border: 1px solid #AEC2EA;
+    position: absolute;
+    width: 916px;
+    height: 644px;
+    left: 50px;
+    top: 165px;
+}
+.basketHeader {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    position: absolute;
+    width: 916px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    /* Secondary/ White */
+
+    background: #FFFFFF;
+    /* Secondary/ Menu blue */
+
+    border: 1px solid #AEC2EA;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.title{
+    position: absolute;
+    width: 65px;
+    height: 26px;
+    left: 58px;
+    top: 25px;
+
+    /* Desktop/Text 20px, Semibold */
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.framePrice{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 161px;
+    height: 50px;
+    left: 234px;
+    top: calc(50% - 50px/2);
+}
+.priceTitle{
+    position: static;
+    min-width: 151px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+
+    /* Desktop/Text 16px, Regular */
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.price{
+    position: static;
+    width: 107px;
+    height: 23px;
+    left: 0px;
+    top: 27px;
+
+    /* Desktop/H3 20px, Bold */
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.makeOrder{
+    position: absolute;
+    width: 214px;
+    height: 50px;
+    right: 234px;
+    top: calc(50% - 50px/2 + 2px);
+
+    /* Accent/ Blue */
+
+    background: #2967FF;
+    border-radius: 51px;
+
+    /* Desktop/Button 16px, Semibold */
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: white;
+}
+.imgGroup{
+    position: relative;
+}
+.imgOne{
+    position: absolute;
+    left: 87.23%;
+    right: 6.56%;
+    top: -5%;
+    bottom: 48.1%;
+}
+.imgTwo{
+    position: absolute;
+    left: 80.46%;
+    right: 9.37%;
+    top: -7%;
+    bottom: -10.15%;
+}
+.imgFree{
+    position: absolute;
+    right: 1.59%;
+    top: 20px;
+}
+
+.basketItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 780px;
+    height: 464px;
+    left: 58px;
+    top: 140px;
+}
+.ordersFrame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 780px;
+    height: 464px;
+    left: 58px;
+    top: 140px;
+
+}
+

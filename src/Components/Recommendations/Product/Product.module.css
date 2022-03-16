@@ -1,0 +1,307 @@
+.itemProduct {
+    display: flex;
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+    /*padding: 0px;*/
+    /*position: static;*/
+    /*width: 916px;*/
+    /*!* height: 1302px; *!*/
+    /*left: 0px;*/
+    /*top: 0px;*/
+    /*flex: none;*/
+    /*order: 0;*/
+    /*align-self: center;*/
+    /*flex-grow: 0;*/
+    /*!* margin: 30px 0px; *!*/
+    /*justify-content: flex-start;*/
+    flex-wrap: wrap;
+
+}
+.frameItems{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 916px;
+    height: 283px;
+    left: 0px;
+    top: 939px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 214px;
+    height: 283px;
+    left: 234px;
+    top: 0px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 5px;
+}
+.buttonAddItem{
+    position: static;
+    width: 214px;
+    height: 40px;
+    left: 0px;
+    top: 243px;
+
+    /* Accent/ Blue */
+
+    border: 1px solid #2967FF;
+    box-sizing: border-box;
+    border-radius: 26px;
+    background-color: white;
+    color: #2967FF;
+    /* Inside auto layout */
+    cursor: pointer;
+    flex: none;
+    order: 2;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 10px 0px;
+
+}
+
+.aboutItem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 214px;
+    height: 233px;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    /*margin: 10px 0px;*/
+}
+.price{
+    position: relative;
+    width: 127px;
+    height: 45px;
+    top: -25px;
+    flex: none;
+    order: 3;
+    align-self: flex-start;
+    flex-grow: 0;
+
+}
+.discount{
+    position: relative;
+    width: 33px;
+    height: 20px;
+    left: 83px;
+    top: 44px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: right;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FF2D87;
+}
+
+.oldPriceGroup{
+    position: absolute;
+    width: 68px;
+    height: 17px;
+
+
+}
+.line {
+    position: absolute;
+    width: 66px;
+    height: 0px;
+    left: 1px;
+    top: 36px;
+
+    /* Secondary/ Grey */
+
+    border: 1px solid #8D8D8E;
+}
+.oldPrice{
+    position: absolute;
+    width: 68px;
+    height: 17px;
+    left: 0px;
+    top: 27px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 122%;
+    /* identical to box height, or 17px */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* Secondary/ Grey */
+
+    color: #8D8D8E;
+}
+.totalPrice{
+    position: absolute;
+    width: 127px;
+    height: 26px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* Accent/ Blue */
+
+    color: #2967FF;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 214px;
+    height: 40px;
+    left: 0px;
+    top: 143px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: center;
+    flex-grow: 0;
+    margin: 5px 0px;
+}
+.aboutShop{
+    position: static;
+    display: none;
+    width: 214px;
+    height: 15px;
+    left: 0px;
+    top: 43px;
+
+    /* Desktop/Text 12px, Semibold */
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 122%;
+    /* identical to box height, or 15px */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* Primary/Body */
+
+    color: #727280;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 3px 0px;
+
+}
+.aboutLongName{
+    position: static;
+    width: 214px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+
+    /* Desktop/Text 14px, Regular */
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* Primary/ Dark */
+
+    color: #2D2D2F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 3px 0px;
+}
+.imgProduct{
+    position: static;
+    width: 214px;
+    height: 138px;
+    left: 0px;
+    top: 0px;
+
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 5px 0px;
+}
+
+.frameTag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+
+    position: absolute;
+    width: 676.22px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+}
+.fgr{
+    position: absolute;
+    left: -13.08%;
+    right: -12.62%;
+    top: 0%;
+    bottom: -11.57%;
+}

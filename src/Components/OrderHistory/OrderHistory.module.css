@@ -1,0 +1,214 @@
+.historyContainer {
+    min-height: 680px;
+    padding: 130px 0 0 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.frameHistory {
+    width: 448px;
+    height: 236px;
+    border: 1px solid #AEC2EA;
+    border-radius: 32px;
+    flex: none;
+    margin: 20px 20px 20px 15px;
+    position: relative;
+}
+
+.chevronUp {
+    position: absolute;
+    left: 408px;
+    top: 20px;
+    background-image: url("../../common/img/CustomButtun/Chevron.png");
+    background-size: cover;
+    background-position: center;
+    width: 12px;
+    height: 6px;
+    cursor: pointer;
+}
+
+.shopName {
+    position: absolute;
+    width: 331px;
+    height: 50px;
+    left: 20px;
+    top: 20px;
+}
+
+.shopLogo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+
+.titleShopName {
+    position: absolute;
+    left: 18.13%;
+    bottom: 48%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.DetailedDescription {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 149px;
+    height: 20px;
+    left: 80px;
+    top: 53px;
+}
+
+.data {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #727280;
+}
+
+.detail {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 127.7%;
+    padding-left: 7px;
+    color: #2967FF;
+    cursor: pointer;
+}
+
+.descriptions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 385px;
+    height: 76px;
+    left: 20px;
+    top: 80px;
+}
+
+.status {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 214px;
+    height: 33px;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    width: 385px;
+    margin: 10px 0px;
+}
+.amount{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0 0;
+    /* justify-content: space-between; */
+    min-width: 25%;
+}
+
+.titleAbout{
+    height: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #727280;
+}
+.descrAbout{
+    min-width: 70%;
+    height: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.final {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+.isStatus {
+    width: 120px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 3px 0px;
+}
+
+.fStatus {
+    width: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 122%;
+    color: #727280;
+    margin: 3px 0px;
+}
+.orderNumber{
+    width: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 122%;
+    color: #727280;
+    margin: 3px 0px;
+}
+.copyNumber{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: flex-end;
+    margin: 3px 0px;
+}
+.numberName{
+    width: 57px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 122%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2967FF;
+
+}
+.copy{
+    cursor: pointer;
+    margin: 0px 5px;
+}

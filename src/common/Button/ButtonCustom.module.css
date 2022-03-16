@@ -1,0 +1,103 @@
+
+.buttonContainer {
+    position: absolute;
+    width: 135px;
+    height: 44px;
+    left: 392px;
+    top: 0px;
+
+    /* Secondary/ White */
+
+    background: #FFFFFF;
+    /* Secondary/ Menu blue */
+
+    border: 1px solid #AEC2EA;
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+
+.minus {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 12px;
+    cursor: pointer;
+
+}
+
+.imgMinus {
+    position: absolute;
+    width: 8px;
+    height: 0px;
+    left: calc(50% - 8px / 2);
+    top: calc(50% - 0px / 2);
+
+    /* Secondary/ Menu blue */
+
+    background-color: #AEC2EA;
+    border: 1px solid #AEC2EA;
+}
+
+.plus {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 103px;
+    top: 12px;
+    cursor: pointer;
+
+}
+
+.plusGroup {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 6px;
+    top: 6px;
+
+}
+
+.imgPlusOne {
+
+    position: absolute;
+    width: 8px;
+    height: 0px;
+    left: calc(50% - 8px / 2);
+    top: calc(50% - 0px / 2);
+
+    /* Secondary/ Menu blue */
+    background-color: #AEC2EA;
+    border: 1px solid #AEC2EA;
+}
+
+.imgPlusTwo {
+    position: absolute;
+    width: 0px;
+    height: 8px;
+    left: calc(50% - 0px / 2);
+    top: calc(50% - 8px / 2);
+
+    /* Secondary/ Menu blue */
+
+    border: 1px solid #AEC2EA;
+    background-color: #AEC2EA;
+
+}
+
+.value {
+    position: absolute;
+    width: 19px;
+    height: 22px;
+    left: calc(50% - 19px / 2);
+    top: calc(50% - 22px / 2);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}

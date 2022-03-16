@@ -4,11 +4,10 @@
     height: 23px;
     left: 51px;
     top: 112px;
-
+    z-index: 1;
     /* Desktop/H3 20px, Bold */
 
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -16,6 +15,7 @@
     cursor: pointer;
 }
 .infoSecond{
+    z-index: 1;
     position: absolute;
     width: 64px;
     height: 15px;
@@ -25,7 +25,6 @@
 /* Desktop/Link 12px, Semibold */
 
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 127.7%;

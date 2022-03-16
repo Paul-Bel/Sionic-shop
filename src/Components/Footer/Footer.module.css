@@ -1,14 +1,11 @@
 .footerContainer{
-    position: relative;
-    width: 1366px;
+    position: absolute;
+    min-width: 1366px;
     height: 215px;
-    /*left: 0px;*/
-    /*bottom: 0px;*/
-
-
-    /* Secondary/Very Light Grey */
-
+    left: 0px;
+    /*bottom: -186px;*/
     background: #F8F8F8;
+
 }
 .title {
     position: absolute;
@@ -18,7 +15,6 @@
     bottom: 61.86%;
 
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 40.8px;
     line-height: 50px;
@@ -49,7 +45,6 @@
     top: 0px;
 
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
@@ -84,7 +79,6 @@
     top: 0px;
 
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
@@ -117,27 +111,15 @@
     bottom: 16.28%;
 }
 .Information{
-    /*position: static;*/
-    /*width: 213px;*/
-    /*height: 17px;*/
-    /*left: 247px;*/
-    /*top: 0px;*/
-
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 122%;
-/* identical to box height, or 17px */
 
     font-feature-settings: 'pnum' on, 'lnum' on;
 
-/* Secondary/ Grey */
-
     color: #8D8D8E;
 
-
-/* Inside auto layout */
 
     flex: none;
     order: 2;

@@ -1,8 +1,9 @@
 .App {
   position: relative;
   width: 1366px;
+  min-height: 100vh;
   /*height: 1771px;*/
-
+  margin: 0 auto;
   background: #FFFFFF;
 }
 

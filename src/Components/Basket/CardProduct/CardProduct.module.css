@@ -1,0 +1,245 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    order: 8;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.img {
+    position: static;
+    width: 57px;
+    height: 57px;
+    left: 0px;
+    top: 0px;
+    margin: 0px 20px;
+    border-radius: 12px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /*margin: 0px 20px;*/
+
+    /*border: 1px solid #AEC2EA;*/
+
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: relative;
+    width: 102px;
+    height: 44px;
+    left: 467px;
+    top: 0px;
+}
+.priceHere{
+    position: static;
+    width: 102px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+
+    /* Desktop/Text 16px, Semibold */
+
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.priceDiscount{
+    position: static;
+    width: 90px;
+    height: 17px;
+    left: 0px;
+    top: 27px;
+    font-family: 'Raleway', sans-serif;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 5px 0px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 122%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #8D8D8E;
+}
+.linePrice{
+    position: absolute;
+    width: 66px;
+    height: 0px;
+    left: 1px;
+    top: 33px;
+
+    /* Secondary/ Grey */
+
+    border: 1px solid #8D8D8E;
+}
+.delete {
+    cursor: pointer;
+    position: absolute;
+    left: 97.16%;
+    right: 0%;
+    top: 0%;
+    bottom: 54.55%;
+    width: 13px;
+    height: 14px;
+    background-size: cover;
+    background-image: url("../../../common/img/ProdCard/delete.png");
+}
+.frameDescriptionBye {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 703px;
+    height: 76px;
+    left: 77px;
+    top: 0px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /*margin: 0px 20px;*/
+}
+
+.Interest {
+    position: static;
+    width: 703px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /*margin: 10px 0px;*/
+    /*border: 1px solid black;*/
+}
+.descrItem {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 292px;
+    height: 44px;
+}
+
+.purchase {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 276px;
+    height: 22px;
+    left: 0px;
+    top: 54px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /*margin: 10px 0px;*/
+
+    /*border: 1px solid black;*/
+
+}
+
+.bye {
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.aboutBye {
+    position: relative;
+    width: 154px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+}
+
+.number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1px 13px;
+
+    position: absolute;
+    /*width: 71px;*/
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    color: #2967FF;
+    /* Secondary/ White */
+
+    background: #FFFFFF;
+    /* Accent/ Blue */
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 122%;
+
+    border: 1px solid #2967FF;
+    border-radius: 0px 100px 100px 6px;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 103px;
+    height: 22px;
+    left: 51px;
+    top: 0px;
+    background: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 122%;
+    border: 1px solid #FF2D87;
+    border-radius: 0px 100px 100px 0px;
+    color: #FF2D87;
+    justify-content: center;
+}
+.line {
+    width: 790px;
+    border: 1px solid #AEC2EA;
+    margin: 20px 0px;
+}
