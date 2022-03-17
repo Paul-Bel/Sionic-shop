@@ -8,7 +8,6 @@ export const OrderHistory = () => {
 
     return (
         <>
-
             <div className={style.frameHistory}>
                 <div className={style.chevronUp}/>
                 <div className={style.shopName}>

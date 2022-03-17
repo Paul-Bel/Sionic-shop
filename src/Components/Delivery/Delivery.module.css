@@ -1,0 +1,267 @@
+.deliveryContainer {
+    min-height: 680px;
+    padding: 130px 0 0 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.timeDelivery {
+    position: absolute;
+    width: 292px;
+    height: 52px;
+    left: 50px;
+    top: 165px;
+}
+
+.editTime {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 231px;
+    left: 0px;
+    top: 32px;
+}
+
+.editData {
+    width: 110px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #727280;
+}
+
+.editTimes {
+    width: 121px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #727280;
+}
+
+.editVar {
+    position: absolute;
+    width: 144px;
+    height: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.containerWhere {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 292px;
+    height: 72px;
+    left: 50px;
+    top: 247px;
+}
+
+.whereLocation {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.location {
+    width: 292px;
+    height: 40px;
+    flex: none;
+    order: 2;
+    margin: 10px 0px;
+    border: 1px solid #F0F4FB;
+    box-sizing: border-box;
+    border-radius: 45px;
+}
+
+.img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: calc(50% - -10px / 2);
+}
+
+.locationInput {
+    position: absolute;
+    width: 305px;
+    height: 20px;
+    left: 39px;
+    top: calc(50% - -10px / 2);
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #727280;
+    border: none;
+}
+
+.locationInput:focus {
+    outline: none !important;
+}
+
+.customerName {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 292px;
+    height: 72px;
+    left: 50px;
+    top: 337px;
+}
+
+.inputName {
+    height: 40px;
+    flex: none;
+    order: 2;
+    margin: 10px 0px;
+    border: 1px solid #F0F4FB;
+    box-sizing: border-box;
+    border-radius: 45px;
+}
+
+.inputName:focus {
+    outline: none !important;
+}
+
+.customerTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.customerPhone {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+
+    position: absolute;
+    width: 292px;
+    height: 72px;
+    left: 50px;
+    top: 427px;
+}
+
+.orderCost {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 292px;
+    height: 232px;
+    left: 420px;
+    top: 101px;
+}
+
+.frameAria {
+    display: flex;
+    flex-direction: column;
+    width: 282px;
+    height: 20px;
+    order: 0;
+}
+
+.orderField {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 182px;
+    order: 1;
+    margin: 30px 0 0 0;
+}
+
+.aboutOrder {
+    width: 292px;
+    height: 122px;
+    background: #F0F4FB;
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    position: relative;
+}
+
+.buttonAddItem {
+    width: 292px;
+    height: 50px;
+    background: #2967FF;
+    border-radius: 51px;
+    order: 1;
+    margin: 10px 0px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.buttonAddItem:active {
+    color: #2967FF;
+    background: white;
+    border: 1px solid #2967FF;
+}
+.cost{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 252px;
+    height: 45px;
+    left: 20px;
+    top: 20px;
+
+}
+
+.shippingСost{
+    width: 252px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.costs{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: right;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #727280;
+}
+.total {
+    position: absolute;
+    width: 252px;
+    height: 22px;
+    left: 20px;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.totalTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+.totalCost{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}

@@ -44,7 +44,7 @@ export const Header = () => {
                 <div className={style.inputFindGroup}>
                     {placeholder}
                     <input className={style.inputFind}  placeholder={'Поиск бренда, товара, категории...'}/>
-                    <button className={style.buttonFrame}>
+                    <div className={style.buttonFrame}>
                         <div className={style.frameButtonForIco}>
                             <div className={style.icoButtonGroup}>
                                 <img className={style.buttonV1} src={BV1} alt=""/>
@@ -53,7 +53,7 @@ export const Header = () => {
 
                         </div>
 
-                    </button>
+                    </div>
                 </div>
 
             </div>

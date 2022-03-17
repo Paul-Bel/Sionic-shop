@@ -210,11 +210,13 @@
     right: 22.52%;
     top: 0px;
     background: #FFFFFF;
-    /* Secondary/ Blue */
     padding-left: 15px;
     border: 1px solid #F0F4FB;
     box-sizing: border-box;
     border-radius: 36px;
+}
+.inputFind:focus {
+    outline: none !important;
 }
 .placeholder {
     position: absolute;
@@ -222,17 +224,11 @@
     height: 19px;
     left: 20px;
     top: calc(50% - 19px/2 + 0.5px);
-
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
     font-feature-settings: 'pnum' on, 'lnum' on;
-
-    /* Primary/Body */
-
     color: #727280;
 }
 .buttonFrame {
@@ -243,9 +239,12 @@
     top: calc(50% - 42px/2);
     background: #F0F4FB;
     border-radius: 41px;
-    /*border: none;    */
+    border: none;
     z-index: 1;
     cursor: pointer;
+}
+.buttonFrame:active{
+    border: 1px solid white;
 }
 
 .frameButtonForIco{
@@ -278,5 +277,4 @@
     height: 16px;
     left: calc(50% - 16px/2 - 1px);
     top: calc(50% - 16px/2 - 1px);
-
 }
